@@ -8,7 +8,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-  origin: "https://newzapi.onrender.com/",
+  origin: "https://newz-web-alpha.vercel.app/",
   credentials: true
 }));
 
