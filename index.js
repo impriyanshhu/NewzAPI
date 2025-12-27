@@ -8,7 +8,10 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-  origin: "https://newzweb.onrender.com/",
+  origin: [
+    "https://newsweb-iksu.onrender.com",
+    "http://localhost:5173"
+  ],
   credentials: true
 }));
 
